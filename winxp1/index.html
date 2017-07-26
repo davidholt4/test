@@ -4,6 +4,16 @@
       <title>
         Windows XP v1.0
       </title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+			<script>
+			$( function() {
+				$( "#draggable" ).draggable();
+			} );
+  		</script>
+			
       <style>
 				body  {
 					margin: 0;
@@ -72,11 +82,11 @@
 					float: left;
 					margin: 10px 0 0 15px;
 					width: 150px;
-				}      
-			</style>
-    </head>
+				}  
+		</style>
+	</head>
     <body>
-      <div class="window">
+      <div class="window"  id="draggable" class="ui-widget-content">
         <div class="top">
           <p>
             DISC Error
