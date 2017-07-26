@@ -10,7 +10,7 @@
   		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 			<script>
 			$( function() {
-				$( "#draggable" ).draggable({ handle: ".top" });
+				$( "#draggable" ).draggable({ containment: "body", handle: ".top" });
 			} );
   		</script>
       <style>
